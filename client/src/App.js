@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import OtherPage from './OtherPage';
@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header>
-            <h1 className="App-title">Fib Calculator version 2</h1>
+            <h1 className="App-title">Fib Calculator version 1.3</h1>
             <Link to='/'>Home</Link><i> </i>
             <Link to='otherpage'>Other Page</Link>
           </header>
